@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{%load practice_tags%}
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static "css/practice.css"%}">
+    <title>{%block title%}{%endblock%}</title>
+</head>
+<body>
+    <div class="content">
+        {%block content%}{%endblock%}
+    </div>
+    <div class="sidebar">
+        <h2>DURGA'S Blog</h2>
+        <p>The total number of published posts upto today: {%total_posts%}</p>
+        <h3>Latest Posts:</h3>{%show_latest_posts 100%}
+        
+    </div>
+</body>
+</html>

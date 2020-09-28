@@ -1,0 +1,37 @@
+.content{
+color:blue;
+float:left;
+width:70%;
+background:pink;
+
+}
+
+.sidebar{
+color:white;
+float:right;
+width:30%;
+background:#990033;
+
+}
+
+h1{
+text-align:center;
+border-bottom:1px solid #bbb;
+padding-bottom:10px;
+
+}
+#co{
+color:red;
+border-bottom:2px solid green;
+font-style:italic;
+font-size:20px;
+}
+.cb{
+color:black;
+font-size:30px;
+}
+
+body{
+background:#990033;
+color:lime;
+}
